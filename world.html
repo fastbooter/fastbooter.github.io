@@ -8,15 +8,15 @@
 	<meta name="description" content="" />
 	<link href="style.css" rel="stylesheet">
 	<script type="text/javascript" language="javascript" src="js/prog.js"></script>
-			<style>
+	<style>
 		/*div - контейнер для новости*/
 		.rss{margin:10px;  padding-bottom: 15px;}
 		
 		/*div - контейнер для всей ленты*/
-		.rss_container{padding:10px; }
+		.rss_container2{padding:10px; background: #fff;}
 		
 		/*div - контейнер для медиа-файлов*/
-		.media{background-color:#f0f0f0; background-image:url(https://www.rss-script.ru/img/skrepka.gif); background-repeat:no-repeat; padding-top: 5px;padding-bottom: 5px;padding-left: 13px}
+		.media2{background-color:#f0f0f0; background-image:url(https://www.rss-script.ru/img/skrepka.gif); background-repeat:no-repeat; padding-top: 5px;padding-bottom: 5px;padding-left: 13px}
 		
 		/*div - ссылка на медиа-файл*/
 		.media a{color:#000000;font-size:0.7em}
@@ -25,12 +25,13 @@
 		.media a img{height:16px; border:0px; vertical-align: middle; text-decoration: none; margin:3px;}
 		
 		/*div - контейнер даты новости и заголовка rss-канала*/
-		.rssdate{font-size:0.7em; color:#c0c0c0;  }
+		.rssdate{font-size:0.7em; color:#c0c0c0; margin:7px; }
 		
 		/*div - ссылка даты новости и заголовка rss-канала*/
 		.rssdate a{color:#c0c0c0;}
 		
 		</style>
+
 </head>
 
 <body >
@@ -46,22 +47,10 @@
 
 		<div class="container">
 			<main class="content">
-<script src="/node_modules/rss-parser/dist/rss-parser.min.js"></script>
-<script>
 
-// Note: some RSS feeds can't be loaded in the browser due to CORS security.
-// To get around this, you can use a proxy.
-const CORS_PROXY = "https://cors-anywhere.herokuapp.com/"
+<script type="text/javascript">var charset='UTF-8';var t=document.getElementsByTagName('meta');for(var i=0; i<t.length; i++){var rg=/charset=["']?([^"']*)/g;if(t[i].content.indexOf('charset')!=-1){charset=rg.exec(t[i].content)[1];break;}}document.write('<script type="text/javascript" src="https://www.rss-script.ru/rss-script.php?charset='+charset+'&rss[]=https%3A%2F%2F3dnews.ru%2Fnews%2Fmain%2Frss&notitle=1&count=10"><\/script>');</script><noscript>Для просмотра этой RSS ленты требуется поддержка Java Script</noscript>
 
-let parser = new RSSParser();
-parser.parseURL(CORS_PROXY + 'https://3dnews.ru/news/main/rss', function(err, feed) {
-  console.log(feed.title);
-  feed.items.forEach(function(entry) {
-    console.log(entry.title + ':' + entry.link);
-  })
-})
 
-</script>
 <table>
 	<tr>
 		<td width=100% align="center" height="20" bgcolor="grey"><a href="https://vk.com/fastbooter">Все новости</a></td>

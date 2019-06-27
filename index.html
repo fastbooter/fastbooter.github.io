@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Sliding Page</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" language="javascript" src="js/prog.js"></script>
+
+  
+</head>
+<script>
+  function tableSearch() {
+    var phrase = document.getElementById('search-text');
+    var table = document.getElementById('info-table');
+    var regPhrase = new RegExp(phrase.value, 'i');
+    var flag = false;
+    for (var i = 1; i < table.rows.length; i++) {
+        flag = false;
+        for (var j = table.rows[i].cells.length - 1; j >= 0; j--) {
+            flag = regPhrase.test(table.rows[i].cells[j].innerHTML);
+            if (flag) break;
+        }
+        if (flag) {
+            table.rows[i].style.display = "";
+        } else {
+            table.rows[i].style.display = "none";
+        }
+
+    }
+}
+</script>  
+<body>
+  <!-- button --->
+<div class="button">
+  <span class="line"></span>
+  <span class="line"></span>
+  <span class="line"></span>
+</div>
+<!-- navbar menu -->
+<div class='menu'>
+  <nav>
+    <ul>
+      <li>
+        <a href='#' data-class='home_is_visible '>Home</a>
+      </li>
+      <li>
+        <a href='#' data-class='aboutus_is_visible'>Program</a>
+      </li>
+      <li>
+        <a href='#' data-class='clients_is_visible'>Quick links</a>
+      </li>
+      <li>
+        <a href='#' data-class='contactus_is_visible '>Contact Us</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<div class='content home'>
+<div class="wrapper">
+</div>
+<style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+html,
+body {
+  background: #212121;
+  height: 100%;
+}
+.container2 {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text {
+  text-align: center;
+  font-weight: 100;
+  font-size: 50px;
+  color: #fafafa;
+}
+.dud {
+  color: #757575;
+}
+    </style>
+    <pre>                                                                                    </pre>
+    <pre>                                                                                    </pre>
+    <pre>                                                                                    </pre>
+    <pre>                                                                                    </pre>
+    <pre>                                                                                    </pre>
+    <pre>                                                                                    </pre>
+    <pre>                                                                                    </pre>
+    <pre>                                                                                    </pre>
+    <pre>                                                                                    </pre>
+    <pre>                                                                                    </pre>
+    <pre>                                                                                    </pre>
+    <pre>                                                                                    </pre>
+    <pre>                                                                                    </pre>
+    <pre>                                                                                    </pre>
+  <div class="container2">
+  <div class="text"></div>
+</div>
+    <script src="js/index.js"></script>
+</div>
+<div class='content aboutus'>
+  <div class="wrapper">
+    <h1>Programs</h1>
+   <div class="container">
+  <input type="text" placeholder="Search..."  id="search-text" onkeyup="tableSearch()"s>
+  <div class="search"></div>
+</div>
+<pre> </pre>
+<pre> </pre>
+<pre> </pre>
+<pre> </pre>
+<pre> </pre>
+<pre> </pre>
+  <table class="table table-striped" id="info-table">
+  <thead>
+        <tr>
+            <th>Название</th>
+            <th>Хранилище</th>
+            <th>Офф сайт</th>
+            <th>Описание</th>
+        </tr>
+    </thead>
+    <tbody>
+<tr>
+    <td width=20% height="30" bgcolor="grey" align="center">
+      Соло на клавиатуре
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      <a href="https://mega.nz/#!QvgjHRKa!NIIUpYxBo_swwpBHa5u0v4TKZeu4w0Wtg0ObF_Ggt44"><img src="d1.png" height="25"></a>
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      <a href="https://solo.nabiraem.ru" height="25"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Помощь быстрой печати на клавиатуре
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td width=20% height="30" bgcolor="grey" align="center">
+      Adobe illustrator
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      <a href="https://mega.nz/#!QrJgFIpL!pvO7GbIvJ2lB1yCsCgFEL-RGQG9obgH1V41UfiPoATU"><img src="d1.png" height="25"></a>
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      <a href="https://www.adobe.com/ru/products/illustrator.html?gclid=Cj0KCQjw_vfcBRDJARIsAJafEnGl8b2kD2iPOm3XhYkbEhMfyYSxZcmGPzzr3ddblFJhf7IzQBngw9gaAuc1EALw_wcB&sdid=8DN85NTS&mv=search&skwcid=AL!3085!3!282965729501!e!!g!!adobe%20illustrator&s_kwcid=AL!3085!3!282965729501!e!!g!!adobe%20illustrator&ef_id=WpJyTwAABdGtj5EY:20180916075546:s" height="25"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Лучшее приложение для графического дизайна и векторной графики.
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td width=20% height="30" bgcolor="grey" align="center">
+      Only Office
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      <a href="https://www.onlyoffice.com/ru/download-desktop.aspx" height="25"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Лучший бесплатный офисный пакет на сегодняшний день с поддержкой  docx / xlsx / pdf / csv, корректно преобразует файлы из MS Office
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td width=20% height="30" bgcolor="grey" align="center">
+      Vivaldi
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      <a href="https://vivaldi.com/?lang=ru_RU" height="25"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Современный браузер от разработчиков OPERA
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td width=20% height="30" bgcolor="grey" align="center">
+      ABBYY FineReader 12.0
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      <a href="https://mega.nz/#!8iwC3QgY!c0v8xkapamk0ikzNmNyy49OLO9G0zGdLERGPkGqFrwk"><img src="d1.png" height="25"></a>
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      <a href="https://www.abbyy.com/ru-ru/finereader/" height="25"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Работа с PDF
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td width=20% height="30" bgcolor="grey" align="center">
+      Dolby Digital Home
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      <a href="https://mega.nz/#!YqoVAKaZ!IbN-keqm2NA-Dh66GYXG8smDMqr8EAbuLZsQM1DWfJQ"><img src="d1.png" height="25"></a>
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+    </td>
+    <td height="30" bgcolor="grey">
+      Драйвера Dolby для любого ПК.
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td width=20% height="30" bgcolor="grey" align="center">
+      Aris 5.0
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      <a href="https://mega.nz/#!Nug3xbhb!nv_j6OZBtYmgmPuzJeaJ-4yYEe41s8n8-oQs0TbmDRA"><img src="d1.png" height="25"></a>
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      <a href="http://www.ariscommunity.com/aris-express" height="25"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Программа для планирования и структурирования бизнес плана
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+      <tr>
+    <td width=20% height="30" bgcolor="grey" align="center">
+      Adobe Premiere Pro
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      <a href="https://mega.nz/#!w6IAFBLC!NStHs-dZiHVIdkcCSRnNH_P0HEe41rmpgxQUqSkqL6A"><img src="d1.png" height="25"></a>
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      <a href="https://www.adobe.com/ru/products/premiere.html" height="25"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      учший видеоредактор
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td width=20% height="30" bgcolor="grey" align="center">
+      adobe after effects
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      <a href="https://mega.nz/#!NmgxBRCB!vfIiTHrCiggBGr06TmzSb6obBuWOv3x557-a7jX9wt8"><img src="d1.png" height="25"></a>
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      <a href="https://www.adobe.com/ru/products/aftereffects.html" height="25"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Лучший редактор эффектов
+    
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td width=20% height="30" bgcolor="grey" align="center">
+      Eclipse
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      <a href=""></a>
+    </td>
+    <td width=5% height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fwww.eclipse.org%2Fide%2F&post=-157861023_243&el=snippet"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Эта программа весит намного меньше чем Visual Studio, и предлагает больше возможностей)
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      Visual studio 2017 
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href=""></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fwww.visualstudio.com%2Fru%2Fthank-you-downloading-visual-studio%2F%3Fsku%3DCommunity%26rel%3D15&post=-157861023_241&el=snippet"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      IDE от Microsoft
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      MathLAB 2017
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21MzAUXCib%21YSgD3yOrlkS89Qi0IQ22fDF5Cl6wd4ydqzsG5XEimYA&post=-157861023_234&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href=""></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Пароль: fastbooter
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      NI Multisim
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%2521ZzYhzYrA%25219S7AHvRl-y26QyKweWKMG7I4Ew89dVxpPhtF2iVrtqY&post=-157861023_232&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="http://cxem.net/software/multisim.php"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Программа для тестирования эл. сетей
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      SOLIDWORKS 2017
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21c6wxGIpQ%21e5Mpmm3UX_ffdd5oXPLf2aHygngjFa2zfKtcKnj0m84&post=-157861023_192&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="http://www.solidworks.ru/"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Работа с графикой
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      AutoCAD 2018
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21Jq4SGIob%21qiWKvPeN3j1A5R0gWGC6ZAznudq0HRszyO4pFBHWDqE&post=-157861023_102&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://www.autodesk.ru/products/autocad/free-trial"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Двух- и трёхмерная система автоматизированного проектирования и черчения, разработанная компанией Autodesk
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      Bandicam
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21Y3A3DQBB%21FMggD06TqxgN084DUmJJ_TojzQ9Rqb7kroRITLMYioE&post=-157861023_82&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://www.bandicam.com/ru/"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+       компактная программа записи экрана для Windows
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      Sony Vegas PRO
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21g2xhyTCK%217hpWyTPaturtyB0vqdyboDKjGocuca66KlZbDK4WBGs&post=-157861023_81&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="http://www.vegascreativesoftware.com/ru/vegas-pro/"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Видео монтаж контента в реальном времени
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      Adobe Lightroom
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21NnAi3IzT%215JbF1iA635rCb-SgRHhnAvsYnH2azG0hCbgVwygadWc&post=-157861023_78&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://www.adobe.com/ru/creativecloud.html?sdid=JRSIX&mv=search&skwcid=AL!3085!3!247474063091!b!!g!!adobe%20creative&s_kwcid=AL!3085!3!247474063091!b!!g!!adobe%20creative&ef_id=WpJyTwAABdGtj5EY:20180226130759:s"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Редактор фотографий
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      Pinnacle Studio 20
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%219q5ywTKQ%21LO9o-YtpISDqG0c21twlw0LmUfHy67cl5GQlvpih0tk&post=-157861023_75&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://www.pinnaclesys.com/en/products/studio/"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Видео монтаж контента в реальном времени
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      Mathcad 14 PRO
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%2193RnyARY%21h9fFZ0-4WcgokwFkKSJrsJQsmAdg9ZHgLi1Jc6SC4b0&post=-157861023_71&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://support.ptc.com/support/mathcad_downloads.htm"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Песочница для расчётов
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      BsPlayer PRO
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21cihnCQ4R%21pkibrXI7GUTWle1nCuY8iY7B-A5Sm-96wbNFDnLHx_M&post=-157861023_69&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="http://bsplayer.com/"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      быстрый и надежный плеер
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      Photoshop
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21pnRnwIqa%213dvDjmj8pvJIYpqTW1N06MLv927eicBgXCbV89rUz5Q&post=-157861023_67&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://www.adobe.com/ru/products/photoshop.html"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Самый знаменитый редактор фотографий
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      K-Lite Codec Pack
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href=""></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=http%3A%2F%2Fwww.codecguide.com%2Fdownload_k-lite_codec_pack_mega.htm&post=-157861023_59&el=snippet"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Лёгкий плеер
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      CDBurnerXP
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href=""></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fcdburnerxp.se%2F&post=-157861023_58&el=snippet"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Беспалтный и современный аналог NERO
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      Apache OpenOffice
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href=""></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=http%3A%2F%2FOpenOffice.org&post=-157861023_57&el=snippet"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      свободный пакет офисных приложений
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      qBittorrent
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href=""></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fwww.qbittorrent.org%2Fdownload.php&post=-157861023_56&el=snippet"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      свободный кросс-платформенный клиент файлообменной сети 
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      Adobe Acrobat Reader DC
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href=""></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fget.adobe.com%2Fru%2Freader%2Fotherversions%2F&post=-157861023_55&el=snippet"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      бесплатный стандарт просмотра PDF
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+       XnView
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21N7hQSSBD%21--ozImU22jYDqUEVmUMhb3L4VE3Y-8yVvrZSKL3pihE&post=-157861023_49&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href=""></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Удобный и быстрый браузер фотографий
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      AIMP 
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21kzpyibpD%21I-4f_ATrpbZL322YoSWLLnjM-BgNPOfvXXb0LoLbVM8&post=-157861023_48&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://www.aimp.ru/"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Лучший аудиоплеер
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      Classic Shell
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21VuACTASB%21EiOGdHjVDE7I9pVMQ_z1EeQdCWF_rVK_InbPwFYEwbU&post=-157861023_24"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="http://www.classicshell.net/"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Windows 7 поверх десятки
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      Rainmeter
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21UiYH0ZrJ%213lxXfLn_gWutO4tNreGGHHOVYMGUaHhTHKLeNdEY1mU&post=-157861023_22&cc_key="><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href=""></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Красивые виджеты на рабочий стол
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="grey" align="center">
+      7-Zip
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href=""></a>
+    </td>
+    <td height="30" bgcolor="grey" align="center">
+      <a href="http://www.7-zip.org/download.html"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="grey">
+      Бесплатный архиватор
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td height="20" bgcolor="yellow" align="center">
+      ПК-Больница
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td height="30" bgcolor="yellow" align="center">
+      Space Sniffer
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://mega.nz/#!onJAyYLK!CsEe4ajJKeyl_sPAszHrtW4h25-oD78E5m7ZT2-cNgY"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://www.fosshub.com/SpaceSniffer.html"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow">
+      Визуально отображает размер папок и файлов на диске.
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td height="30" bgcolor="yellow" align="center">
+      Auslogics Disk Defrag
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21sr5nDD6b%21oR-UeIrufSU-wlGF0v4astRJiWA-FJ8QuG0bYbLNIEk&post=-157861023_47&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://www.auslogics.com/ru/software/disk-defrag/"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow">
+      очень быстрый дефрагментатор дисков
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td width=20% height="30" bgcolor="yellow" align="center">
+      Unlocker
+    </td>
+    <td width=5% height="30" bgcolor="yellow" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21tyQRXaLJ%21dvu19gEgzN6iGgHlzvlCEbzJ3882jh8ZLZ_SOKbj6co&post=-157861023_43&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td width=5% height="30" bgcolor="yellow" align="center">
+      <a href=""></a>
+    </td>
+    <td height="30" bgcolor="yellow">
+      Удалит всё
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+
+  <tr>
+    <td height="30" bgcolor="yellow" align="center">
+      Aomei Partition Assistant
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21liZFUBIB%216oB65nYOlR_FDTylr465O7AscSji5C-2AWtqERZ1FRg&post=-157861023_25&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://www.disk-partition.com/free-partition-manager.html"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow">
+      Программка для разметки SSD и HDD
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+
+
+  <tr>
+    <td height="30" bgcolor="yellow" align="center">
+      Wise Disk Cleaner
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21UnIQmJLR%2110RkXOPOwvxxZ-BOEHnY1sY1-8SB2hhO_EiIlh6dIFE&post=-157861023_13&cc_key="><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://www.wisecleaner.com/wise-disk-cleaner.html"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow">
+      Видео монтаж контента в реальном времени
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td height="30" bgcolor="yellow" align="center">
+      PrivaZer
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21R3gHxQjQ%21_0a4sB7KN3fXnTzGeTjGMVPq7kf5QOmpBUKeJ6Ip4tw&post=-157861023_12&cc_key="><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://privazer.com/"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow">
+      оможет вам очистить ПК от следов конфиденциальной информации
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td height="30" bgcolor="yellow" align="center">
+      Bulk Crap Uninstaller
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%215yJmAA7R%21ccz8AFmXLmCGuHTcM5lAWWM3-e_qazY6cdugbDnysPk&post=-157861023_11&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="http://klocmansoftware.weebly.com/"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow">
+      программа деинсталлятор предназначенная для удаления программ с компьютера
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td height="30" bgcolor="yellow" align="center">
+      Process Hacker
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href=""><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href=""></a>
+    </td>
+    <td height="30" bgcolor="yellow">
+      Утилита для мониторинга всех загруженных сервисов и программ
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td height="30" bgcolor="yellow" align="center">
+      Ccleaner
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%218qZTjZwK%219c2Q6Krvo_KGaAFfFqDbf33kzdB_96xz2c5CuWbths8&post=-157861023_9&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="http://ccleaner.org.ua/download/"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow">
+      можно проводить эффективную и безопасную очистку всего
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td height="30" bgcolor="yellow" align="center">
+      AutoRuns
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21VqRjFJjS%21E0PkjuXi-mtUUFN9ob3oHGyucK1Ckf2gn5YKY5phtOY&post=-157861023_7&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href=""></a>
+    </td>
+    <td height="30" bgcolor="yellow">
+      Просмотр реестра автозапуска
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td height="30" bgcolor="yellow" align="center">
+      Malwarebytes Anti-Malware
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21IjgBAapI%21-bBMZXhJzjwuvuiu9e898vSKh3Eo1cunFm31WrqMVGE&post=-157861023_6&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href=""></a>
+    </td>
+    <td height="30" bgcolor="yellow">
+      Лучший антивирус по нашему мнению
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td height="30" bgcolor="yellow" align="center">
+      AdwCleaner
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21xuBCAYYS%21JMN5Qtbmkqys1DpsIW_hSOXw1HjnfKUXSRWuW4IlHE8&post=-157861023_5&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href=""></a>
+    </td>
+    <td height="30" bgcolor="yellow">
+      Поиск руткритов
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td height="30" bgcolor="yellow" align="center">
+      AVZ
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21hjpCEAQS%21Q0RCKiKm6eRmhrDY3r08WUgctSFgWXTr2Q8G33j-lsc&post=-157861023_4&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href=""></a>
+    </td>
+    <td height="30" bgcolor="yellow">
+      Поиск уязвимостей
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td height="30" bgcolor="yellow" align="center">
+      Виктория HDD
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://vk.com/away.php?to=https%3A%2F%2Fmega.nz%2F%23%21035ERBQS%21QngZWHw2ZtmdDLn01DhNMkvfiQ8-k6rzvoTZLBQ4ZjQ&post=-157861023_3&el=snippet"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href=""></a>
+    </td>
+    <td height="30" bgcolor="yellow">
+      Ремонт HDD 
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+
+  <tr>
+    <td height="30" bgcolor="yellow" align="center">
+      AOMEI Backupper
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://mega.nz/#!Yrw0DbaJ!u0optzFPhgW1JXfPDGdmKwGZal9jPHWSV-AL1jW3L-w"><img src="d1.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow" align="center">
+      <a href="https://www.aomeitech.com/aomei-backupper.html"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow">
+      Создание образов отдельных дисков или разделов
+    </td>
+  </tr>
+<!-- ----------------------------------------------------- -->
+  <tr>
+    <td  height="30" bgcolor="yellow" align="center">
+      H2testw
+    </td>
+    <td width=5% height="30" bgcolor="yellow" align="center">
+      <a href="https://mega.nz/#!prYmnahT!66YgOw_KHf7YQWWXQx3HAAsqLiGWZGWpV-iKQXbLGcM"><img src="d1.png" height="25"></a>
+    </td>
+    <td width=5% height="30" bgcolor="yellow" align="center">
+      <a href="https://www.heise.de/download/product/h2testw-50539" height="25"><img src="d2.png" height="25"></a>
+    </td>
+    <td height="30" bgcolor="yellow">
+      Программа для тестирования флешек на их реальную емкость, а также скорость чтения и записи. На русском.
+    </td>
+  </tr>
+    </tbody>
+</table> 
+</div>
+</div>
+<div class='content clients'>
+  <div class="wrapper">
+  <h1>Quick links</h1>
+  <pre> </pre>
+  <pre> </pre>
+  <div class="container3">
+     <script type="text/javascript">
+          var a = 0;
+          do{
+            document.write(array[a] + "<br>");
+            a++;
+          }
+          while(a<array.length - 1)
+      </script>
+</div>
+<pre>                                                                                                                                     </pre>
+</div>
+</div>
+<div class='content contactus'>
+  <div class="wrapper">
+  <h1>Contact Us</h1>
+  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend %leo</p>
+  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend %leo</p>
+  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend %leo</p>
+  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend %leo</p>
+  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend %leo</p>
+</div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

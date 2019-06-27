@@ -6,9 +6,8 @@ array[2]="<a href=\"https://mega.nz/#!l74jnCgR!R8Dm2TgBRS0vZfKUDqjkfSpw6MjZ5f3kt
 array[3]="<a href=\"https://mega.nz/#!035ERBQS!QngZWHw2ZtmdDLn01DhNMkvfiQ8-k6rzvoTZLBQ4ZjQ\">Виктория HDD</a>"
 array[4]="<a href=\"https://mega.nz/#!xuBCAYYS!JMN5Qtbmkqys1DpsIW_hSOXw1HjnfKUXSRWuW4IlHE8\">ADW cleaner</a>"
 array[5]="<a href=\"https://mega.nz/#!Z3olwRLb!YihCXgXWBj4egROop9eiIL1_omlEQkIWXCq1YysYYgk\">Загрузка windows</a>"
-array[6]="<a href=\"prog.html\">Все программы</a>"
-array[7]="<a href=\"https://vk.com/topic-157861023_36785724\">Игры</a>"
-array[8]="<a href=\"../prog.html\">Игры</a>"
+array[6]="<a href=\"https://vk.com/topic-157861023_36785724\">Игры</a>"
+array[7]="<a href=\"../prog.html\">Игры</a>"
 
 
 

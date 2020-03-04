@@ -1,8 +1,8 @@
 
                         class whatsAppBot{
                         //specify instance URL and token
-                        var $APIurl = 'https://api.chat-api.com/instanceYYYYY/';
-                        var $token = '**************************';
+                        var $APIurl = 'https://eu108.chat-api.com/instance104429/';
+                        var $token = '9qjtkjvw1oq62l4m';
 
                         public function __construct(){
                         //get the JSON body from the instance

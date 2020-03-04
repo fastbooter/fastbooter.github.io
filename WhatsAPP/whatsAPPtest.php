@@ -1,5 +1,5 @@
 
-                        class whatsAppBot{
+                 class whatsAppBot{
                         //specify instance URL and token
                         var $APIurl = 'https://eu108.chat-api.com/instance104429/';
                         var $token = '9qjtkjvw1oq62l4m';
@@ -139,5 +139,6 @@
                         $response = file_get_contents($url,false,$options);
                         file_put_contents('requests.log',$response.PHP_EOL,FILE_APPEND);}}
                         //execute the class when this file is requested by the instance
-                        new whatsAppBot();
+                        new whatsAppBot();}
+}
                         

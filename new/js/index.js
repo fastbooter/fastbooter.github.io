@@ -1,10 +1,6 @@
 function calculate(){  
-	document.getElementById("sidebar2").innerHTML = "ssss";
-
-
     // получаем значения полей
     var k = 2, n = 3, x0=2,xq0=2, L1=12, L2 = 1; 
-
     var Ch = document.inputData.keyCh;
     Ch = Ch.value;
     var tp = document.inputData.keyTp;
